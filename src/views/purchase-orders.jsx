@@ -228,7 +228,7 @@ function POForm({ onClose }) {
             <div className="card-header"><h3 className="card-title">Aprobadores</h3></div>
             <div style={{ padding: 18, display: 'flex', flexDirection: 'column', gap: 12 }}>
               {[
-                { name: 'María E. Rodríguez', role: 'Comprador · L1', auto: true },
+                { name: 'Comprador', role: 'Comprador · L1', auto: true },
                 { name: 'Jorge Castillo', role: 'Gerente de Compras · L2', auto: true },
                 { name: 'Patricia Vázquez', role: 'CFO · L3 (>$200K)', auto: true },
               ].map((a, i) => (
@@ -261,11 +261,11 @@ function SumRow({ label, value }) {
 function PODetail({ po, onBack, role }) {
   const timeline = [
     { d: '23 may · 09:18', who: 'Carlos Mendoza', what: 'Creó la orden', tone: 'info', done: true },
-    { d: '23 may · 11:02', who: 'María E. Rodríguez', what: 'Aprobó (L1)', tone: 'success', done: true },
+    { d: '23 may · 11:02', who: 'Comprador', what: 'Aprobó (L1)', tone: 'success', done: true },
     { d: '23 may · 14:38', who: 'Jorge Castillo', what: 'Aprobó (L2)', tone: 'success', done: true },
     { d: '23 may · 16:10', who: 'Sistema', what: 'Notificó al proveedor', tone: 'accent', done: true },
-    { d: '24 may · 08:42', who: 'Hardware Pacífico', what: 'Confirmó recepción', tone: 'success', done: true },
-    { d: '26 may · 10:00', who: 'Hardware Pacífico', what: 'Mercancía en tránsito', tone: 'info', done: true, current: true },
+    { d: '24 may · 08:42', who: 'Vendedor', what: 'Confirmó recepción', tone: 'success', done: true },
+    { d: '26 may · 10:00', who: 'Vendedor', what: 'Mercancía en tránsito', tone: 'info', done: true, current: true },
     { d: 'Estimado 04 jun', who: '', what: 'Recepción en almacén', tone: 'neutral', done: false },
     { d: 'Pendiente', who: '', what: 'Factura emitida', tone: 'neutral', done: false },
     { d: 'Pendiente', who: '', what: 'Pago liberado', tone: 'neutral', done: false },

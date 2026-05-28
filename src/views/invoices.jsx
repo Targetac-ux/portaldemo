@@ -309,7 +309,7 @@ function InvoiceDetail({ invoice, onBack, role }) {
             <div className="card-header"><h3 className="card-title">Flujo de aprobación</h3></div>
             <div style={{ padding: '18px 20px' }}>
               {[
-                { who: 'María E. Rodríguez', role: 'Comprador', state: 'done', when: 'hace 2 h' },
+                { who: 'Comprador', role: 'Comprador', state: 'done', when: 'hace 2 h' },
                 { who: 'Jorge Castillo', role: 'Gerente Compras', state: 'current', when: 'pendiente' },
                 { who: 'Patricia Vázquez', role: 'CFO', state: 'pending', when: 'pendiente' },
               ].map((a, i) => {

@@ -158,7 +158,7 @@ function SettingsModules() {
 
 function SettingsTeam() {
   const team = [
-    { name: 'María Elena Rodríguez', email: 'mrodriguez@grupocdmx.mx', role: 'Comprador', last: 'hace 12 min' },
+    { name: 'Comprador', email: 'mrodriguez@grupocdmx.mx', role: 'Comprador', last: 'hace 12 min' },
     { name: 'Carlos Mendoza López', email: 'cmendoza@grupocdmx.mx', role: 'Comprador', last: 'hace 1 h' },
     { name: 'Jorge Castillo Reyes', email: 'jcastillo@grupocdmx.mx', role: 'Gerente Compras', last: 'hace 2 h' },
     { name: 'Patricia Vázquez Torres', email: 'pvazquez@grupocdmx.mx', role: 'CFO', last: 'ayer' },

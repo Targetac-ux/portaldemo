@@ -404,10 +404,10 @@ function SupplierContacts({ supplier }) {
 
 function SupplierHistory() {
   const events = [
-    { d: '24 may 2026', t: '11:42', who: 'María E. Rodríguez', what: 'Aprobó factura FAC-A-1183', tone: 'success' },
+    { d: '24 may 2026', t: '11:42', who: 'Comprador', what: 'Aprobó factura FAC-A-1183', tone: 'success' },
     { d: '23 may 2026', t: '09:18', who: 'Carlos Mendoza', what: 'Creó orden OC-2026-00478', tone: 'info' },
     { d: '12 abr 2026', t: '14:08', who: 'Sistema', what: 'Renovó constancia fiscal automáticamente', tone: 'accent' },
-    { d: '02 may 2026', t: '08:30', who: 'María E. Rodríguez', what: 'Recibió opinión 32-D positiva', tone: 'success' },
+    { d: '02 may 2026', t: '08:30', who: 'Comprador', what: 'Recibió opinión 32-D positiva', tone: 'success' },
     { d: '15 ene 2025', t: '10:00', who: 'Sistema', what: 'Onboarding completado · estado: Activo', tone: 'success' },
   ];
   return (
@@ -544,7 +544,7 @@ function SupplierWizard({ onClose }) {
                   <StatusBadge tone="accent">Requerido</StatusBadge>
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
-                  <Field label="Nombre completo" placeholder="María Elena Rodríguez Vázquez" />
+                  <Field label="Nombre completo" placeholder="Comprador" />
                   <Field label="Puesto" placeholder="Gerente Comercial" />
                   <Field label="Email" placeholder="contacto@empresa.mx" />
                   <Field label="Teléfono" placeholder="+52 55 0000 0000" mono />
@@ -567,7 +567,7 @@ function SupplierWizard({ onClose }) {
                 <ReviewRow label="Categoría" value="Hardware" />
                 <ReviewRow label="Sede" value="Ciudad de México" />
                 <ReviewRow label="Documentos" value="2 de 3 requeridos cargados" tone="warning" />
-                <ReviewRow label="Contacto principal" value="María E. Rodríguez · mrodriguez@tecavanzada.mx" last />
+                <ReviewRow label="Contacto principal" value="Comprador · mrodriguez@tecavanzada.mx" last />
               </div>
               <label style={{ display: 'flex', alignItems: 'flex-start', gap: 10, fontSize: 13, color: 'var(--text-2)' }}>
                 <input type="checkbox" defaultChecked style={{ marginTop: 2 }} />

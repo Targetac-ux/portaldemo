@@ -86,11 +86,11 @@ function Sidebar({ role, current, onNav, collapsed }) {
           background: 'var(--bg-2)', borderRadius: 8, border: '1px solid var(--border-1)',
           display: 'flex', flexDirection: collapsed ? 'column' : 'row', alignItems: 'center', gap: collapsed ? 6 : 10
         }}>
-          <Avatar name={role === 'buyer' ? 'María Rodríguez' : 'Hardware Pacífico'} size={28} />
+          <Avatar name={role === 'buyer' ? 'Comprador' : 'Vendedor'} size={28} />
           {!collapsed && (
             <div style={{ flex: 1, minWidth: 0, lineHeight: 1.2 }}>
               <div style={{ fontSize: 12, fontWeight: 500, color: 'var(--text-1)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                {role === 'buyer' ? 'María Rodríguez' : 'Luis F. Aguilar'}
+                {role === 'buyer' ? 'Comprador' : 'Vendedor'}
               </div>
               <div style={{ fontSize: 10, color: 'var(--text-4)' }}>
                 {role === 'buyer' ? 'Compras · Comprador' : 'Hardware y Componentes'}
@@ -168,7 +168,7 @@ function Topbar({ breadcrumbs = [], role, onRoleChange, onCollapse, search = tru
         <span style={{ position: 'absolute', top: 8, right: 8, width: 7, height: 7, borderRadius: '50%', background: 'var(--accent)', border: '2px solid var(--bg-1)' }} />
       </button>
       <div style={{ width: 1, height: 24, background: 'var(--border-1)', margin: '0 4px' }} />
-      <Avatar name={role === 'buyer' ? 'María Rodríguez' : 'Luis Aguilar'} size={30} />
+      <Avatar name={role === 'buyer' ? 'Comprador' : 'Vendedor'} size={30} />
     </header>
   );
 }

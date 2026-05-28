@@ -170,7 +170,7 @@ function SupplierDashboard() {
           <Icon name="sparkles" size={20} />
         </div>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 15, fontWeight: 500, color: 'var(--text-1)' }}>Buen día, Luis Fernando</div>
+          <div style={{ fontSize: 15, fontWeight: 500, color: 'var(--text-1)' }}>Buen día, Vendedor</div>
           <div style={{ fontSize: 13, color: 'var(--text-3)', marginTop: 2 }}>Tienes <span style={{ color: 'var(--accent)' }}>3 RFQs nuevas</span> y <span style={{ color: 'var(--warning)' }}>2 facturas en aprobación</span> con Grupo Inmobiliario CDMX.</div>
         </div>
         <button className="btn btn-secondary">Ver bandeja</button>

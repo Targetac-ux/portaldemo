@@ -6,7 +6,7 @@ function SupplierProfileView() {
     name: 'Hardware y Componentes del Pacífico',
     razon: 'Hardware y Componentes del Pacífico SA de CV',
     rfc: 'HCP190228P82', categoria: 'Hardware',
-    sede: 'Guadalajara, JAL', contacto: 'Luis Fernando Aguilar',
+    sede: 'Guadalajara, JAL', contacto: 'Vendedor',
     email: 'laguilar@hcpacifico.mx', telefono: '+52 33 3812 9904',
     completion: 92
   };
